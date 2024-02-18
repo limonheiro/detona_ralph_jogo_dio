@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: url("../imagens/pixel-brick-wall-vector-12492931.webp");
+    height: 100vh;
+}
+.menu{
+    display: flex;
+    flex-flow: row;
+    gap: 0.2rem;
+    background-color: #1d1d1d;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    box-shadow: 2px 5px 2px gold;
+}
+.menu-time{
+    padding: 4px;
+}
+
+.time-left, .your-score {
+    color: #ff0000;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.menu-lives img{
+    width: 60px;
+}
+
+.panel{
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../imagens/pixel-brick-wall-vector-12492931.webp");
+    background-repeat: inherit;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    background-color: #90ee90;
+    border: 1px solid #000000;
+}
+
+.enemy{
+    background: #ff0000;
+    background-image: url("../imagens/ralph.png");
+    background-size: cover;
+}
